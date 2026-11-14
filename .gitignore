@@ -1,0 +1,19 @@
+# Ignorar los datos originales, pero conservar sus instrucciones
+data/*
+!data/README.md
+
+# Archivos temporales de Python y Jupyter
+_pycache_/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Entornos virtuales y configuración local
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Archivos de Windows
+Thumbs.db
+Desktop.ini
